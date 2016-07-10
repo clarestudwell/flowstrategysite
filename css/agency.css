@@ -34,8 +34,7 @@ hr:before {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     padding-top: 30px;
-    padding-bottom: 70px;
-    margin-top: 45px;
+    padding-bottom: 30px;
 
 
     background-position: center center;
@@ -74,7 +73,7 @@ hr:before {
 }
 
 .divider2 {
-	background-image: url('../img/bg/divider2.jpeg')
+	background-image: url('../img/bg/divider2.jpg')
 }
 
 .divider3 {
