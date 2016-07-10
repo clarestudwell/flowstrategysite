@@ -98,7 +98,7 @@
                     <hr>
                     <br>
                     <p class="text-muted">
-                    <p>We believe there is true beauty at the intersection of passion, inspiration, skill, challenge, and curiosity. This intersection, <i>flow</i>, is what we strive for each day. 
+                    <p>We believe there is true beauty at the intersection of passion, inspiration, skill, challenge, and curiosity. This intersection, <i>flow</i>, is what we strive for each day.
                     </p>
                     <p>We are challenged every day by the questions our clients bring to us, and are inspired and energized by translating seemingly complex data into actionable insights and truth-based stories to drive our clients’ businesses. It is through partnership with our clients that we achieve flow, and hope they do as well.</p>
                 </div>
@@ -157,7 +157,7 @@
                 <p><i>“Clare has a broad knowledge of research techniques and finds creative ways to execute them cost-effectively.  She is adept at working with her internal customers to determine the best tools to meet their known objectives and can draw out previously unconsidered needs as well.  This consistently provided richer learning and, ultimately, better solutions.  Clare is an outstanding presenter to key customers and senior executives and can effectively ‘sell’ her ideas.”</i></p>
             </div><!-- container -->
         </section><!-- section -->
-        
+
     <!-- About Section -->
     <section id="about">
         <div class="container">
@@ -310,7 +310,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <a href="#" class="btn btn-xl" id="submit-form">Send Message</a>
                             </div>
                         </div>
                     </form>
@@ -517,6 +517,21 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
+
+    <script>
+      $("#submit-form").click(function () {
+        var text = $("input[type=text]").val();
+        var email = $("input[type=email]").val();
+        var tel = $("input[type=tel]").val();
+        var body = $("textarea").val();
+        window.location.href =
+        "mailto:clare@flowstrategy.co?subject=Email from:" + text +
+        " email: " + email +
+        " phone: " + tel +
+        "&body=" + body;
+      });
+    </script>
+
 
 </body>
 
