@@ -5,7 +5,7 @@ body{overflow-x:hidden;font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
-    padding: 0;
+    padding: 10px;
 }
 
 hr {
@@ -33,8 +33,8 @@ hr:before {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 
     background-position: center center;
